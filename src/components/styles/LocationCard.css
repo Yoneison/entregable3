@@ -1,0 +1,57 @@
+/* Estilos para la caja contenedora */
+.container__padre {
+    
+    justify-content: center;
+    align-items: center;
+    background-color: #051c21;
+    color: #ffffff;
+    padding: 20px;
+    margin: 1rem 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    height: auto;
+  }
+  
+  /* Estilos para el título */
+  .location__name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: greenyellow;
+    /* Ocupar el ancho completo en dispositivos pequeños */
+  }
+  
+  /* Estilos para la lista no ordenada */
+  .ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    
+     
+  }
+  
+  /* Estilos para cada elemento de lista */
+  .li {
+    display: flex;
+    flex-direction: column; /* Alinear elementos li en columna */
+    margin-bottom: 10px;
+    width: calc(33.33% - 20px); /* Calcular el ancho de las columnas con espacio entre ellas */
+    box-sizing: border-box;
+  }
+  
+  /* Estilos para los elementos span */
+  .span {
+    font-weight: bold;
+  }
+  
+  /* Estilos para los elementos span__item */
+  .span__item {
+    margin-top: 5px;
+    color: #fff9;
+    font-weight: 300; /* Espaciado entre li y span__item */
+  }
+  
