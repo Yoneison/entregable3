@@ -9,7 +9,7 @@ const LocationCard = ({location}) => {
             <li className='li'><span className='span'>Population:</span><span className='span__item'>{location?.residents.length}</span></li>
         </ul>
     </article>
-  )
+  ) 
 }
 
 export default LocationCard

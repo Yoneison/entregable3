@@ -1,0 +1,46 @@
+.resident__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+  }
+  
+  .search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 28px;
+  }
+  .input__btn {
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 5px ;
+    height: 30px;
+    width: 300px;
+    border: 3px solid #9990;
+    
+  }
+  .btn {
+    background-color: greenyellow;
+    border-radius:5px ;
+    height: 30px;
+    border-bottom: none;
+    width: 80px;
+    
+  }
+  .footer {
+    background-color: black;
+    height: 50px;
+  }
+  .hr {
+    color: #fff0;
+  }
+  .name {
+    display: flex;
+    color: white;
+    justify-content: center;
+  }
+   
+    
+  
+  
